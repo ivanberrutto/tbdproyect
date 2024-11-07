@@ -6,7 +6,7 @@ import { HousingLocation } from '../housinglocation';
 
 
 @Component({
-  selector: 'app-housing-location',
+  selector: 'app-housing-location', // Este es el selector del componente hijo para poder llamarlo con <app-housing-location y le pasas cosas
   standalone: true,
   imports: [],
   template: `
